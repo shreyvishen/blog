@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    { "source": "/posts/diffusion-models{/}?", "destination": "https://svishen.dev/blog/diffusion-models-1/", "statusCode": 301 },
+    { "source": "/posts/diffusion-models-p2{/}?", "destination": "https://svishen.dev/blog/diffusion-models-2/", "statusCode": 301 },
+    { "source": "/posts/eitopiisneg1{/}?", "destination": "https://svishen.dev/blog/eulers-identity/", "statusCode": 301 },
+    { "source": "/posts/linregc{/}?", "destination": "https://svishen.dev/blog/linear-regression-in-c/", "statusCode": 301 },
+    { "source": "/posts/audio-wgan{/}?", "destination": "https://svishen.dev/blog/audio-generation-with-wgans/", "statusCode": 301 },
+    { "source": "/about{/}?", "destination": "https://svishen.dev/", "statusCode": 301 },
+    { "source": "/:path*", "destination": "https://svishen.dev/blog/", "statusCode": 301 }
+  ]
+}
